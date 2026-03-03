@@ -24,7 +24,7 @@ jobs:
             terraform init                           
 
         - name: Set up Terraform
-          uses: hashicorp/setup-terraform@v1
+          uses: hashicorp/setup-terraform@v3
         
         - name: 'Terraform plan'                                   
           id: plan                                   
